@@ -4,11 +4,12 @@
   "description": "This project is made for educational purpose ",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "Furqan Iqbal",
   "license": "ISC",
   "dependencies": {
+    "@getbrevo/brevo": "^2.2.0",
     "bcrypt": "^5.1.1",
     "cloudinary": "^2.2.0",
     "cors": "^2.8.5",
@@ -24,5 +25,9 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
+  }, 
+  "engines": {
+    "node": "21.x",
+    "npm": "10.x"
   }
 }
